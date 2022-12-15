@@ -1,0 +1,6 @@
+framework module Pods_CerealDemoTests {
+  umbrella header "Pods-CerealDemoTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
