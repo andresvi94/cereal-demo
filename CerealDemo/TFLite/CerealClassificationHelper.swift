@@ -103,7 +103,7 @@ final class CerealClassificationHelper {
         let percentScore = (category?.score ?? 0) * 100.0
         
         guard percentScore > minimumScore else {
-            debugPrint("low confidence: \(percentScore)%")
+//            debugPrint("low confidence: \(percentScore)%")
             return (fieldName, fieldScore)
         }
         
