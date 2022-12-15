@@ -8,6 +8,7 @@ target 'CerealDemo' do
   # Pods for CerealDemo
   pod 'TensorFlowLiteSwift'
   pod 'TensorFlowLiteTaskVision'
+  pod 'Roboflow'
 
   target 'CerealDemoTests' do
     inherit! :search_paths

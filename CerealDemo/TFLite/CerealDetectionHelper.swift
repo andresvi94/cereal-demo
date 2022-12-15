@@ -6,11 +6,13 @@
 //
 
 import TensorFlowLiteTaskVision
+//import Roboflow
 import Vision
 
 final class CerealDetectionHelper {
     
     static let shared = CerealDetectionHelper()
+//    private let rf = RoboflowMobile(apiKey: "cpC4bVL1WoJlvA3coPlB")
     
     @Published var classResults: CerealResult?
     private var detector: ObjectDetector?
@@ -25,6 +27,15 @@ final class CerealDetectionHelper {
     
     private init() {
         configure()
+//        rf.load(model: "cereal-0d7rp", modelVersion: 1) { [self] model, error, modelName, modelType in
+//            if error != nil {
+//                print(error?.localizedDescription as Any)
+//            } else {
+//                model?.configure(threshold: threshold, overlap: overlap, maxObjects: maxObjects)
+//                self.model = model
+//            }
+//
+//        }
     }
     
     private func configure() {
