@@ -22,7 +22,7 @@ Never have interfaced or leveraged AVFoundation, TensorflowLite, TensorflowLiteT
 - 10hrs for research, development, and testing
 
 ## Demo
-- [Recording]()
+- [Recording](https://drive.google.com/file/d/1_vkHvpI8h8pgDXUsx4N3nCWNTARRhVcG/view?usp=sharing)
 
 
 ## Resources
