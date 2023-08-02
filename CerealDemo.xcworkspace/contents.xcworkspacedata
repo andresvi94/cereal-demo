@@ -2,7 +2,7 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:CerealDemo.xcodeproj">
+      location = "group:/Users/a0v0ahz/Github/cereal-demo/CVDemo.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Pods/Pods.xcodeproj">
